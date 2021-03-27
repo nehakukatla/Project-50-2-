@@ -1,0 +1,50 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.Text{
+    display: flex;
+    justify-content:space-between;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Header{
+
+}
+.Grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.Grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.Origamis{
+    border-radius: 40px;
+    background-color: white;
+    width: 400px;
+    /*display: flex;*/
+}
+.Footer{
+    background-color: salmon;
+    height: 100px;
+    color: white;
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+}
+/*h1{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+}
